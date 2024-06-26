@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="/css/style.css" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Monoton&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css?family=Lato:400,700,900"
+            rel="stylesheet"
+        />
+
+        <title>ColorDiv - BigVu project</title>
+        <meta
+            name="description"
+            content="Serhiy Kochkin - Specializing in crafting standout websites with Webflow. Discover my work for BigVu website."
+        />
+        <meta
+            name="keywords"
+            content="Webflow developer, Webflow designer, website design, Serhiy Kochkin, ColorDiv, standout websites, web development"
+        />
+        <meta name="author" content="Serhiy Kochkin" />
+
+        <meta
+            property="og:title"
+            content="ColorDiv - Webflow Developing & Designing"
+        />
+        <meta
+            property="og:description"
+            content="Serhiy Kochkin - Specializing in crafting standout websites with Webflow. Discover my work for BigVu website."
+        />
+        <meta property="og:image" content="/assets/images/og_screenshot.png" />
+        <meta property="og:url" content="https://colordiv.com" />
+        <meta property="og:type" content="website" />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+            name="twitter:title"
+            content="ColorDiv - Webflow Developer & Designer"
+        />
+        <meta
+            name="twitter:description"
+            content="Serhiy Kochkin - Specializing in crafting standout websites with Webflow. Discover my work for BigVu website."
+        />
+        <meta name="twitter:image" content="assets\images\og_screenshot.png" />
+
+        <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+
+        <link rel="canonical" href="https://colordiv.com" />
+    </head>
+    <body class="theme-bigvu">
+        <header class="header theme-bigvu">
+            <div class="header__menu">
+                <div
+                    role="button"
+                    aria-label="open sidebar"
+                    on="tap:header-sidebar.toggle"
+                    tabindex="0"
+                    class="menu-button"
+                >
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 36 36"
+                        width="36"
+                        height="36"
+                    >
+                        <path fill="currentColor" d="M9 12h18v2H9z"></path>
+                        <path fill="currentColor" d="M9 17h18v2H9z"></path>
+                        <path fill="currentColor" d="M9 22h18v2H9z"></path>
+                    </svg>
+                </div>
+            </div>
+
+            <div class="header__title">
+                <a href="/index.html">COLORDIV</a>
+            </div>
+            <div class="header-contact-wrapper">
+                <a
+                    href="https://webflow.com/@serhiy-kochkin"
+                    class="header-contact"
+                    target="_blank"
+                    >webflow.com/@serhiy-kochkin</a
+                >
+            </div>
+        </header>
+
+        <main role="main" class="project">
+            <div class="project__wrapper">
+                <section class="project__section">
+                    <div class="project__header">
+                        <h1 class="project__header-h1 monoton-regular">
+                            BigVu
+                        </h1>
+                        <div class="project__subheader">
+                            Best Teleprompter Tool, Caption Maker, Video Editor
+                        </div>
+                        <a
+                            href="https://bigvu.tv/"
+                            class="landing__discover-btn theme-dark mt-4"
+                            target="_blank"
+                        >
+                            <span>Visit website</span>
+                        </a>
+                    </div>
+                    <div class="project__hero-image">
+                        <img
+                            src="/assets/images/projects/bigvu.png"
+                            alt="simetria"
+                        />
+                    </div>
+                </section>
+            </div>
+        </main>
+
+        <aside class="projects__name-section">Projects</aside>
+        <nav class="projects__nav theme-bigvu">
+            <a href="/projects/simetria.html" class="project__paginator-btn"
+                >Prev</a
+            >
+            <span class="project__paginator-divider"></span>
+            <a
+                href="/projects/bigvu.html"
+                class="project__paginator-btn"
+                disabled
+                >Next</a
+            >
+        </nav>
+
+        <aside class="aside" role="menu" hidden>
+            <div class="aside__menu">
+                <div class="aside__menu-close">
+                    <div
+                        role="button"
+                        aria-label="close sidebar"
+                        on="tap:header-sidebar.toggle"
+                        tabindex="0"
+                        class="navbar-trigger__close"
+                    >
+                        <span>✕</span>
+                    </div>
+                </div>
+                <nav class="aside__menu-nav">
+                    <ul class="aside__menu-list">
+                        <li class="aside__menu-list_item">
+                            <a
+                                aria-label="Home"
+                                class="nav-link"
+                                href="/index.html"
+                                >Home</a
+                            >
+                        </li>
+                        <li class="aside__menu-list_item">
+                            <a
+                                aria-label="Bigvu work"
+                                class="nav-link"
+                                href="/projects/bigvu.html"
+                                >Bigvu</a
+                            >
+                        </li>
+                        <li class="aside__menu-list_item">
+                            <a
+                                aria-label="Simetria work"
+                                class="nav-link"
+                                href="/projects/simetria.html"
+                                >Simetria</a
+                            >
+                        </li>
+                        <li class="aside__menu-list_item">
+                            <a
+                                aria-label="About Me"
+                                href="https://webflow.com/@serhiy-kochkin"
+                                class="navbar-contact"
+                                target="_blank"
+                                >webflow.com/@serhiy-kochkin</a
+                            >
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </aside>
+        <div class="aside__overlay" role="overlay" hidden></div>
+    </body>
+
+    <script src="/js/main.js"></script>
+</html>

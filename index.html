@@ -1,6 +1,279 @@
 <!DOCTYPE html>
-<html>
-<body>
-<h1>ColorDiv</h1>
-</body>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="/css/style.css" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Monoton&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css?family=Lato:400,700,900"
+            rel="stylesheet"
+        />
+
+        <title>Colordiv - Webflow Developer & Designer</title>
+        <meta
+            name="description"
+            content="Serhiy Kochkin - Specializing in crafting standout websites with Webflow. Discover my works and let's create something amazing together."
+        />
+        <meta
+            name="keywords"
+            content="Webflow developer, Webflow designer, website design, Serhiy Kochkin, Colordiv, standout websites, web development"
+        />
+        <meta name="author" content="Serhiy Kochkin" />
+
+        <meta
+            property="og:title"
+            content="Colordiv - Webflow Developing & Designing"
+        />
+        <meta
+            property="og:description"
+            content="Serhiy Kochkin - Specializing in crafting standout websites with Webflow. Discover my works and let's create something amazing together."
+        />
+        <meta property="og:image" content="assets\images\og_screenshot.png" />
+        <meta property="og:url" content="https://colordiv.com" />
+        <meta property="og:type" content="website" />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+            name="twitter:title"
+            content="Colordiv - Webflow Developer & Designer"
+        />
+        <meta
+            name="twitter:description"
+            content="Serhiy Kochkin - Specializing in crafting standout websites with Webflow. Discover my works and let's create something amazing together."
+        />
+        <meta name="twitter:image" content="assets\images\og_screenshot.png" />
+
+        <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+
+        <link rel="canonical" href="https://colordiv.com" />
+    </head>
+    <body>
+        <div class="hide">
+            <svg width="0" height="0">
+                <defs>
+                    <clipPath
+                        id="svgClipPath"
+                        clipPathUnits="objectBoundingBox"
+                    >
+                        <rect y="0" x="0" width="1" height="0.99"></rect>
+                    </clipPath>
+                </defs>
+            </svg>
+        </div>
+
+        <main role="main" class="landing">
+            <div class="landing__wrapper">
+                <section class="landing__section z-2 theme-light">
+                    <div class="landing__section-wrapper">
+                        <header class="header animation-header">
+                            <div class="header__menu">
+                                <div
+                                    role="button"
+                                    aria-label="open sidebar"
+                                    on="tap:header-sidebar.toggle"
+                                    tabindex="0"
+                                    class="menu-button"
+                                >
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 36 36"
+                                        width="36"
+                                        height="36"
+                                    >
+                                        <path
+                                            fill="currentColor"
+                                            d="M9 12h18v2H9z"
+                                        ></path>
+                                        <path
+                                            fill="currentColor"
+                                            d="M9 17h18v2H9z"
+                                        ></path>
+                                        <path
+                                            fill="currentColor"
+                                            d="M9 22h18v2H9z"
+                                        ></path>
+                                    </svg>
+                                </div>
+                            </div>
+
+                            <div class="header__title">
+                                <a href="/index.html">COLORDIV</a>
+                            </div>
+                            <div class="header-contact-wrapper">
+                                <a
+                                    href="https://webflow.com/@serhiy-kochkin"
+                                    class="header-contact"
+                                    target="_blank"
+                                    >webflow.com/@serhiy-kochkin</a
+                                >
+                            </div>
+                        </header>
+
+                        <div class="landing__content">
+                            <h1 class="landing__hero-header monoton-regular">
+                                <span class="color-vivid-violet">DESIGN*</span
+                                ><br />
+                                <span class="color-aqua-green"
+                                    >&lt;/ CODE&gt;</span
+                                ><br />
+                                <span class="color-sky-blue">PASSION</span>
+                            </h1>
+                            <div class="landing__hero-subheader">
+                                I'm Serhiy Kochkin, specializing in crafting
+                                standout websites.
+                            </div>
+                        </div>
+
+                        <div>
+                            <a
+                                class="landing__discover-btn theme-light"
+                                href="/projects/simetria.html"
+                            >
+                                <span>Discover my works</span>
+                            </a>
+                        </div>
+
+                        <div class="landing__scroll-indicator">
+                            <p>Scroll</p>
+                        </div>
+                    </div>
+                </section>
+                <section class="landing__section z-1 theme-dark">
+                    <div class="landing__section-wrapper">
+                        <header class="header animation-header">
+                            <div class="header__menu">
+                                <div
+                                    role="button"
+                                    aria-label="open sidebar"
+                                    on="tap:header-sidebar.toggle"
+                                    tabindex="0"
+                                    class="menu-button"
+                                >
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 36 36"
+                                        width="36"
+                                        height="36"
+                                    >
+                                        <path
+                                            fill="currentColor"
+                                            d="M9 12h18v2H9z"
+                                        ></path>
+                                        <path
+                                            fill="currentColor"
+                                            d="M9 17h18v2H9z"
+                                        ></path>
+                                        <path
+                                            fill="currentColor"
+                                            d="M9 22h18v2H9z"
+                                        ></path>
+                                    </svg>
+                                </div>
+                            </div>
+
+                            <div class="header__title">
+                                <a href="/index.html">COLORDIV</a>
+                            </div>
+                            <div class="header-contact-wrapper">
+                                <a
+                                    href="https://webflow.com/@serhiy-kochkin"
+                                    class="header-contact"
+                                    target="_blank"
+                                    >webflow.com/@serhiy-kochkin</a
+                                >
+                            </div>
+                        </header>
+                        <div class="landing__content">
+                            <h2
+                                class="landing__hero-header monoton-regular color-white"
+                            >
+                                SERHIY<br /><span class="text-gradient"
+                                    >COLORDIV</span
+                                ><br />KOCHKIN
+                            </h2>
+                            <div class="landing__hero-subheader">
+                                Your Partner in Webflow Excellence.
+                            </div>
+                        </div>
+
+                        <div>
+                            <a
+                                class="landing__discover-btn theme-dark"
+                                href="/projects/simetria.html"
+                            >
+                                <span>Discover my works</span>
+                            </a>
+                        </div>
+
+                        <div class="landing__scroll-indicator">
+                            <p>Scroll</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+
+        <aside class="aside" role="menu" hidden>
+            <div class="aside__menu">
+                <div class="aside__menu-close">
+                    <div
+                        role="button"
+                        aria-label="close sidebar"
+                        on="tap:header-sidebar.toggle"
+                        tabindex="0"
+                        class="navbar-trigger__close"
+                    >
+                        <span>✕</span>
+                    </div>
+                </div>
+                <nav class="aside__menu-nav">
+                    <ul class="aside__menu-list">
+                        <li class="aside__menu-list_item">
+                            <a
+                                aria-label="Home"
+                                class="nav-link"
+                                href="/index.html"
+                                >Home</a
+                            >
+                        </li>
+                        <li class="aside__menu-list_item">
+                            <a
+                                aria-label="Bigvu work"
+                                class="nav-link"
+                                href="/projects/bigvu.html"
+                                >Bigvu</a
+                            >
+                        </li>
+                        <li class="aside__menu-list_item">
+                            <a
+                                aria-label="Simetria work"
+                                class="nav-link"
+                                href="/projects/simetria.html"
+                                >Simetria</a
+                            >
+                        </li>
+                        <li class="aside__menu-list_item">
+                            <a
+                                aria-label="About Me"
+                                href="https://webflow.com/@serhiy-kochkin"
+                                class="navbar-contact"
+                                target="_blank"
+                                >webflow.com/@serhiy-kochkin</a
+                            >
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </aside>
+        <div class="aside__overlay" role="overlay" hidden></div>
+    </body>
+
+    <script src="/js/main.js"></script>
 </html>
