@@ -696,6 +696,10 @@ a:active {
     background-color: var(--color-light-gray);
     color: var(--color-dark);
 }
+.theme-simetria-ecommerce {
+    background-color: #222934;
+    color: var(--color-white);
+}
 .theme-bigvu {
     background: rgb(9, 9, 121);
     background: linear-gradient(
@@ -703,6 +707,10 @@ a:active {
         rgba(9, 9, 121, 1) 0%,
         rgba(40, 179, 247, 1) 100%
     );
+    color: var(--color-white);
+}
+.theme-nutheorie {
+    background-color: #e1227a;
     color: var(--color-white);
 }
 .landing__section-wrapper {
@@ -1021,7 +1029,13 @@ a:active {
 .projects__nav.theme-simetria .project__paginator-btn {
     color: var(--color-dark);
 }
+.projects__nav.theme-simetria-ecommerce .project__paginator-btn {
+    color: var(--color-white);
+}
 .projects__nav.theme-bigvu .project__paginator-btn {
+    color: var(--color-light-gray);
+}
+.projects__nav.theme-nutheorie .project__paginator-btn {
     color: var(--color-light-gray);
 }
 .projects__nav {
