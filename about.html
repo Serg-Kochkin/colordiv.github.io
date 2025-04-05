@@ -1,257 +1,254 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="/css/style.css" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
 
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Monoton&display=swap"
-            rel="stylesheet"
-        />
-        <link
-            href="https://fonts.googleapis.com/css?family=Lato:400,700,900"
-            rel="stylesheet"
-        />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Monoton&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:400,700,900"
+      rel="stylesheet"
+    />
 
-        <title>Serhiy Kochkin - About me</title>
-        <meta
-            name="description"
-            content="Serhiy Kochkin - Specializing in crafting standout websites with Webflow. Discover my work for Simmetria website."
-        />
-        <meta
-            name="keywords"
-            content="Webflow developer, Webflow designer, website design, Serhiy Kochkin, Colordiv, standout websites, web development"
-        />
-        <meta name="author" content="Serhiy Kochkin" />
+    <title>Serhiy Kochkin - About me</title>
+    <meta
+      name="description"
+      content="Serhiy Kochkin - Specializing in crafting standout websites with Webflow. Discover my work for Simmetria website."
+    />
+    <meta
+      name="keywords"
+      content="Webflow developer, Webflow designer, website design, Serhiy Kochkin, Colordiv, standout websites, web development"
+    />
+    <meta name="author" content="Serhiy Kochkin" />
 
-        <meta
-            property="og:title"
-            content="Colordiv - Webflow Developing & Designing"
-        />
-        <meta
-            property="og:description"
-            content="Serhiy Kochkin - Specializing in crafting standout websites with Webflow. Discover my work for Simmetria website."
-        />
-        <meta property="og:image" content="assets\images\og_screenshot.png" />
-        <meta property="og:url" content="https://colordiv.com" />
-        <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Colordiv - Webflow Developing & Designing"
+    />
+    <meta
+      property="og:description"
+      content="Serhiy Kochkin - Specializing in crafting standout websites with Webflow. Discover my work for Simmetria website."
+    />
+    <meta property="og:image" content="assets\images\og_screenshot.png" />
+    <meta property="og:url" content="https://colordiv.com" />
+    <meta property="og:type" content="website" />
 
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta
-            name="twitter:title"
-            content="Colordiv - Webflow Developer & Designer"
-        />
-        <meta
-            name="twitter:description"
-            content="Serhiy Kochkin - Specializing in crafting standout websites with Webflow. Discover my work for Simmetria website."
-        />
-        <meta name="twitter:image" content="assets\images\og_screenshot.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Colordiv - Webflow Developer & Designer"
+    />
+    <meta
+      name="twitter:description"
+      content="Serhiy Kochkin - Specializing in crafting standout websites with Webflow. Discover my work for Simmetria website."
+    />
+    <meta name="twitter:image" content="assets\images\og_screenshot.png" />
 
-        <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
 
-        <link rel="canonical" href="https://colordiv.com" />
-        <!-- Google tag (gtag.js) -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-PX4LZ8FFSR"></script>
-        <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
+    <link rel="canonical" href="https://colordiv.com" />
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-PX4LZ8FFSR"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-        gtag('config', 'G-PX4LZ8FFSR');
-        </script>
-    </head>
-    <body class="theme-light">
-        <header class="header theme-light">
-            <div class="header__menu">
-                <div
-                    role="button"
-                    aria-label="open sidebar"
-                    on="tap:header-sidebar.toggle"
-                    tabindex="0"
-                    class="menu-button"
+      gtag("config", "G-PX4LZ8FFSR");
+    </script>
+  </head>
+  <body class="theme-light">
+    <header class="header theme-light">
+      <div class="header__menu">
+        <div
+          role="button"
+          aria-label="open sidebar"
+          on="tap:header-sidebar.toggle"
+          tabindex="0"
+          class="menu-button"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 36 36"
+            width="36"
+            height="36"
+          >
+            <path fill="currentColor" d="M9 12h18v2H9z"></path>
+            <path fill="currentColor" d="M9 17h18v2H9z"></path>
+            <path fill="currentColor" d="M9 22h18v2H9z"></path>
+          </svg>
+        </div>
+      </div>
+
+      <div class="header__title">
+        <a href="/index.html">COLORDIV</a>
+      </div>
+      <div class="header-contact-wrapper">
+        <a
+          href="https://webflow.com/@serhiy-kochkin"
+          class="header-contact"
+          target="_blank"
+          >webflow.com/@serhiy-kochkin</a
+        >
+      </div>
+    </header>
+
+    <main role="main" class="about-me">
+      <section class="about-me__wrapper">
+        <div class="about-me__first-part">
+          <h1 class="about-me__header monoton-regular">Serhiy<br />Kochkin</h1>
+          <div class="about-me__contacts">
+            <address class="about-me__address">Ukraine, Khmelnitsky</address>
+            <div class="about-me__socials">
+              <a href="https://www.linkedin.com/in/kochkins/" target="_blank">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  x="0px"
+                  y="0px"
+                  width="48"
+                  height="48"
+                  viewBox="0 0 48 48"
                 >
-                    <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 36 36"
-                        width="36"
-                        height="36"
-                    >
-                        <path fill="currentColor" d="M9 12h18v2H9z"></path>
-                        <path fill="currentColor" d="M9 17h18v2H9z"></path>
-                        <path fill="currentColor" d="M9 22h18v2H9z"></path>
-                    </svg>
-                </div>
-            </div>
-
-            <div class="header__title">
-                <a href="/index.html">COLORDIV</a>
-            </div>
-            <div class="header-contact-wrapper">
-                <a
-                    href="https://webflow.com/@serhiy-kochkin"
-                    class="header-contact"
-                    target="_blank"
-                    >webflow.com/@serhiy-kochkin</a
+                  <path
+                    fill="#0288D1"
+                    d="M42,37c0,2.762-2.238,5-5,5H11c-2.761,0-5-2.238-5-5V11c0-2.762,2.239-5,5-5h26c2.762,0,5,2.238,5,5V37z"
+                  ></path>
+                  <path
+                    fill="#FFF"
+                    d="M12 19H17V36H12zM14.485 17h-.028C12.965 17 12 15.888 12 14.499 12 13.08 12.995 12 14.514 12c1.521 0 2.458 1.08 2.486 2.499C17 15.887 16.035 17 14.485 17zM36 36h-5v-9.099c0-2.198-1.225-3.698-3.192-3.698-1.501 0-2.313 1.012-2.707 1.99C24.957 25.543 25 26.511 25 27v9h-5V19h5v2.616C25.721 20.5 26.85 19 29.738 19c3.578 0 6.261 2.25 6.261 7.274L36 36 36 36z"
+                  ></path>
+                </svg>
+              </a>
+              <a href="https://dribbble.com/kochkins" target="_blank">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  x="0px"
+                  y="0px"
+                  width="48"
+                  height="48"
+                  viewBox="0 0 48 48"
                 >
+                  <circle cx="24" cy="24" r="19.375" fill="#ed3675"></circle>
+                  <path
+                    fill="#bd1949"
+                    fill-rule="evenodd"
+                    d="M24,4C12.959,4,4,12.959,4,24c0,11.041,8.959,20,20,20	c11.02,0,20-8.959,20-20C44,12.959,35.02,4,24,4z M37.21,13.219c2.386,2.907,3.818,6.616,3.861,10.629	c-0.564-0.108-6.204-1.258-11.887-0.542c-0.13-0.282-0.239-0.586-0.369-0.889c-0.347-0.824-0.738-1.67-1.128-2.473	C33.978,17.384,36.842,13.696,37.21,13.219z M24,6.95c4.338,0,8.308,1.627,11.323,4.295c-0.304,0.434-2.885,3.883-8.959,6.16	c-2.798-5.141-5.9-9.349-6.377-10C21.267,7.102,22.612,6.95,24,6.95z M16.733,8.555c0.455,0.607,3.492,4.837,6.334,9.87	c-7.983,2.126-15.033,2.083-15.792,2.083C8.382,15.215,11.961,10.811,16.733,8.555z M6.907,24.022c0-0.174,0-0.347,0-0.521	c0.738,0.022,9.024,0.13,17.549-2.43c0.499,0.954,0.954,1.931,1.388,2.907c-0.217,0.065-0.456,0.13-0.672,0.195	c-8.807,2.842-13.492,10.607-13.883,11.258C8.577,32.417,6.907,28.403,6.907,24.022z M24,41.093c-3.948,0-7.592-1.345-10.477-3.601	c0.304-0.629,3.774-7.31,13.406-10.672c0.043-0.022,0.065-0.022,0.109-0.043c2.408,6.226,3.384,11.453,3.644,12.95	C28.62,40.616,26.364,41.093,24,41.093z M33.523,38.165c-0.174-1.041-1.085-6.03-3.319-12.169	c5.358-0.846,10.043,0.542,10.629,0.738C40.096,31.484,37.362,35.583,33.523,38.165z"
+                    clip-rule="evenodd"
+                  ></path>
+                </svg>
+              </a>
             </div>
-        </header>
+          </div>
+        </div>
+        <div class="about-me__second-part">
+          <div class="about-me__img-wrapper">
+            <img
+              src="/assets/images/Serhiy_Kochkin.jpg"
+              alt="Serhiy Kochkin photo"
+            />
+          </div>
+          <div class="about-me__description">
+            Certified Webflow Developer, with over 6 years of experience in web
+            development, I specialize in creating standout websites and custom
+            solutions that prioritize quality assurance, effective
+            communication, and client satisfaction. Let's collaborate to turn
+            your ideas into successful Webflow projects.
+          </div>
+        </div>
+      </section>
+    </main>
 
-        <main role="main" class="about-me">
-            <section class="about-me__wrapper">
-                <div class="about-me__first-part">
-                    <h1 class="about-me__header monoton-regular">
-                        Serhiy<br />Kochkin
-                    </h1>
-                    <div class="about-me__contacts">
-                        <address class="about-me__address">
-                            Ukraine, Khmelnitsky
-                        </address>
-                        <div class="about-me__socials">
-                            <a
-                                href="https://www.linkedin.com/in/kochkins/"
-                                target="_blank"
-                            >
-                                <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    x="0px"
-                                    y="0px"
-                                    width="48"
-                                    height="48"
-                                    viewBox="0 0 48 48"
-                                >
-                                    <path
-                                        fill="#0288D1"
-                                        d="M42,37c0,2.762-2.238,5-5,5H11c-2.761,0-5-2.238-5-5V11c0-2.762,2.239-5,5-5h26c2.762,0,5,2.238,5,5V37z"
-                                    ></path>
-                                    <path
-                                        fill="#FFF"
-                                        d="M12 19H17V36H12zM14.485 17h-.028C12.965 17 12 15.888 12 14.499 12 13.08 12.995 12 14.514 12c1.521 0 2.458 1.08 2.486 2.499C17 15.887 16.035 17 14.485 17zM36 36h-5v-9.099c0-2.198-1.225-3.698-3.192-3.698-1.501 0-2.313 1.012-2.707 1.99C24.957 25.543 25 26.511 25 27v9h-5V19h5v2.616C25.721 20.5 26.85 19 29.738 19c3.578 0 6.261 2.25 6.261 7.274L36 36 36 36z"
-                                    ></path>
-                                </svg>
-                            </a>
-                            <a
-                                href="https://dribbble.com/kochkins"
-                                target="_blank"
-                            >
-                                <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    x="0px"
-                                    y="0px"
-                                    width="48"
-                                    height="48"
-                                    viewBox="0 0 48 48"
-                                >
-                                    <circle
-                                        cx="24"
-                                        cy="24"
-                                        r="19.375"
-                                        fill="#ed3675"
-                                    ></circle>
-                                    <path
-                                        fill="#bd1949"
-                                        fill-rule="evenodd"
-                                        d="M24,4C12.959,4,4,12.959,4,24c0,11.041,8.959,20,20,20	c11.02,0,20-8.959,20-20C44,12.959,35.02,4,24,4z M37.21,13.219c2.386,2.907,3.818,6.616,3.861,10.629	c-0.564-0.108-6.204-1.258-11.887-0.542c-0.13-0.282-0.239-0.586-0.369-0.889c-0.347-0.824-0.738-1.67-1.128-2.473	C33.978,17.384,36.842,13.696,37.21,13.219z M24,6.95c4.338,0,8.308,1.627,11.323,4.295c-0.304,0.434-2.885,3.883-8.959,6.16	c-2.798-5.141-5.9-9.349-6.377-10C21.267,7.102,22.612,6.95,24,6.95z M16.733,8.555c0.455,0.607,3.492,4.837,6.334,9.87	c-7.983,2.126-15.033,2.083-15.792,2.083C8.382,15.215,11.961,10.811,16.733,8.555z M6.907,24.022c0-0.174,0-0.347,0-0.521	c0.738,0.022,9.024,0.13,17.549-2.43c0.499,0.954,0.954,1.931,1.388,2.907c-0.217,0.065-0.456,0.13-0.672,0.195	c-8.807,2.842-13.492,10.607-13.883,11.258C8.577,32.417,6.907,28.403,6.907,24.022z M24,41.093c-3.948,0-7.592-1.345-10.477-3.601	c0.304-0.629,3.774-7.31,13.406-10.672c0.043-0.022,0.065-0.022,0.109-0.043c2.408,6.226,3.384,11.453,3.644,12.95	C28.62,40.616,26.364,41.093,24,41.093z M33.523,38.165c-0.174-1.041-1.085-6.03-3.319-12.169	c5.358-0.846,10.043,0.542,10.629,0.738C40.096,31.484,37.362,35.583,33.523,38.165z"
-                                        clip-rule="evenodd"
-                                    ></path>
-                                </svg>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="about-me__second-part">
-                    <div class="about-me__img-wrapper">
-                        <img
-                            src="/assets/images/Serhiy_Kochkin.jpg"
-                            alt="Serhiy Kochkin photo"
-                        />
-                    </div>
-                    <div class="about-me__description">
-                        Certified Webflow Developer, with over 6 years of
-                        experience in web development, I specialize in creating
-                        standout websites and custom solutions that prioritize
-                        quality assurance, effective communication, and client
-                        satisfaction. Let's collaborate to turn your ideas into
-                        successful Webflow projects.
-                    </div>
-                </div>
-            </section>
-        </main>
+    <aside class="projects__name-section">About-me</aside>
 
-        <aside class="projects__name-section">About-me</aside>
+    <aside class="aside" role="menu" hidden>
+      <div class="aside__menu">
+        <div class="aside__menu-close">
+          <div
+            role="button"
+            aria-label="close sidebar"
+            on="tap:header-sidebar.toggle"
+            tabindex="0"
+            class="navbar-trigger__close"
+          >
+            <span>✕</span>
+          </div>
+        </div>
+        <nav class="aside__menu-nav">
+          <ul class="aside__menu-list">
+            <li class="aside__menu-list_item">
+              <a aria-label="Home" class="nav-link" href="/index.html">Home</a>
+            </li>
+            <li class="aside__menu-list_item">
+              <a
+                aria-label="Simetria work"
+                class="nav-link"
+                href="/projects/simetria.html"
+                >Simetria</a
+              >
+            </li>
+            <li class="aside__menu-list_item">
+              <a
+                aria-label="Bigvu work"
+                class="nav-link"
+                href="/projects/bigvu.html"
+                >Bigvu</a
+              >
+            </li>
+            <li class="aside__menu-list_item">
+              <a
+                aria-label="NuTheorie work"
+                class="nav-link"
+                href="/projects/nutheorie.html"
+                >NuTheorie</a
+              >
+            </li>
+            <li class="aside__menu-list_item">
+              <a
+                aria-label="OrangUni work"
+                class="nav-link"
+                href="/projects/orangeuni.html"
+                >OrangeUni</a
+              >
+            </li>
+            <li class="aside__menu-list_item">
+              <a
+                aria-label="Woodiv template"
+                class="nav-link"
+                href="/projects/woodiv.html"
+                >Woodiv</a
+              >
+            </li>
+            <li class="aside__menu-list_item">
+              <a aria-label="About Me" class="nav-link" href="/about.html"
+                >About Me</a
+              >
+            </li>
+            <li class="aside__menu-list_item">
+              <a
+                aria-label="About Me"
+                href="https://webflow.com/@serhiy-kochkin"
+                class="navbar-contact"
+                target="_blank"
+                >webflow.com/@serhiy-kochkin</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </aside>
+    <div class="aside__overlay" role="overlay" hidden></div>
+  </body>
 
-        <aside class="aside" role="menu" hidden>
-            <div class="aside__menu">
-                <div class="aside__menu-close">
-                    <div
-                        role="button"
-                        aria-label="close sidebar"
-                        on="tap:header-sidebar.toggle"
-                        tabindex="0"
-                        class="navbar-trigger__close"
-                    >
-                        <span>✕</span>
-                    </div>
-                </div>
-                <nav class="aside__menu-nav">
-                    <ul class="aside__menu-list">
-                        <li class="aside__menu-list_item">
-                            <a
-                                aria-label="Home"
-                                class="nav-link"
-                                href="/index.html"
-                                >Home</a
-                            >
-                        </li>
-                        <li class="aside__menu-list_item">
-                            <a
-                                aria-label="Simetria work"
-                                class="nav-link"
-                                href="/projects/simetria.html"
-                                >Simetria</a
-                            >
-                        </li>
-                        <li class="aside__menu-list_item">
-                            <a
-                                aria-label="Bigvu work"
-                                class="nav-link"
-                                href="/projects/bigvu.html"
-                                >Bigvu</a
-                            >
-                        </li>
-                        <li class="aside__menu-list_item">
-                            <a
-                              aria-label="NuTheorie work"
-                              class="nav-link"
-                              href="/projects/nutheorie.html"
-                              >NuTheorie</a
-                            >
-                          </li>
-                        <li class="aside__menu-list_item">
-                            <a
-                                aria-label="About Me"
-                                class="nav-link"
-                                href="/projects/about.html"
-                                >About Me</a
-                            >
-                        </li>
-                        <li class="aside__menu-list_item">
-                            <a
-                                aria-label="About Me"
-                                href="https://webflow.com/@serhiy-kochkin"
-                                class="navbar-contact"
-                                target="_blank"
-                                >webflow.com/@serhiy-kochkin</a
-                            >
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-        </aside>
-        <div class="aside__overlay" role="overlay" hidden></div>
-    </body>
-
-    <script src="/js/main.js"></script>
+  <script src="/js/main.js"></script>
 </html>

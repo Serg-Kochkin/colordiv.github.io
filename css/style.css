@@ -713,6 +713,14 @@ a:active {
     background-color: #e1227a;
     color: var(--color-white);
 }
+.theme-orangeuni {
+    background-color: #f24f09;
+    color: var(--color-white);
+}
+.theme-woodiv {
+    background-color: #0a2955;
+    color: var(--color-white);
+}
 .landing__section-wrapper {
     left: 0;
     top: 0;
@@ -1038,6 +1046,12 @@ a:active {
 .projects__nav.theme-nutheorie .project__paginator-btn {
     color: var(--color-light-gray);
 }
+.projects__nav.theme-orangeuni .project__paginator-btn {
+    color: var(--color-light-gray);
+}
+.projects__nav.theme-woodiv .project__paginator-btn {
+    color: var(--color-light-gray);
+}
 .projects__nav {
     background: transparent;
 }
@@ -1146,11 +1160,11 @@ a:active {
         display: block;
     }
     .aside__menu-list_item {
-        font-size: 3rem;
+        font-size: 2rem;
     }
-    .navbar-contact {
+    /* .navbar-contact {
         display: none;
-    }
+    } */
     .project__wrapper {
         max-width: 70vw;
     }
